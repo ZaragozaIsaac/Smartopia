@@ -219,6 +219,39 @@ a {
   max-width: 600px; /* Tamaño máximo del párrafo */
 }
 
+.profile-container ul {
+  display: flex; /* Makes the list horizontal */
+  justify-content: center; /* Centers the list horizontally */
+  gap: 15px; /* Adds space between icons */
+  list-style: none; /* Removes default list styling */
+  padding: 0; /* Removes padding */
+  margin: 20px 0; /* Adds spacing above and below the list */
+}
+
+.profile-container li {
+  display: inline-block; /* Ensures each icon is treated as a block */
+}
+
+.profile-container a {
+  text-decoration: none; /* Removes underlines from links */
+  color: inherit; /* Ensures the icons inherit the color */
+  font-size: 2rem; /* Adjusts the size of the icons */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.profile-container a:hover {
+  color: var(--black-color); /* Changes color when hovered (adjust as needed) */
+}
+
+
+
+
+
+
+
+
+
+
 .centered-image {
   height: auto; /* Mantiene la proporción de la imagen */
   margin: 0 auto; /* Centrado horizontal si está dentro de un bloque */
