@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Smartopia</title>
+
+      <!--=============== ICONOS PARA EL MENU ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="resources/css/styles.css">
+
+   </head>
+
+    <!--BODY-->   
+   <body>
+
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                <i class="ri-home-fill"></i>Smartopia
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="index.html" class="nav__link">Inicio</a></li>
+
+                  
+
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Nosotros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="us.html" class="dropdown__link">
+                              <i class="ri-group-fill"></i> ¿Quiénes Somos?
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="fundadores.html" class="dropdown__link">
+                              <i class="ri-team-fill"></i>Fundadores
+                           </a>
+                        </li>
+                        </ul>
+
+
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Soluciones <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="peatonal.html" class="dropdown__link">
+                            <i class="ri-traffic-light-fill"></i> Sistema Peatonal
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="recoleccion.html" class="dropdown__link">
+                            <i class="ri-delete-bin-fill"></i> Sistema de recolección de basura
+                           </a>
+                        </li>
+
+                        <li>
+                            <a href="drenaje.html" class="dropdown__link">
+                                <i class="ri-rainy-fill"></i> Sistema de drenaje
+                            </a>
+                         </li>
+
+                        
+                         <li>
+                            <a href="ambiente.html" class="dropdown__link">
+                                <i class="ri-cloud-fill"></i> Sistema de control ambiental
+                            </a>
+                         </li>
+
+                         <li>
+                            <a href="iluminacion.html" class="dropdown__link">
+                                <i class="ri-lightbulb-flash-fill"></i> Sistema de iluminación
+                            </a>
+                         </li>
+                        </ul>
+
+                        <!--Estadisticas-->
+                  <li><a href="stats.html" class="nav__link">
+                     Estadisticas<i class="ri-bar-chart-fill"></i>
+                     </a>
+                  </li>
+
+            </div>
+         </nav>
+      </header>
+
+      
+      <section class="sistema">
+
+         <div class="image-container">
+            <img src="/resources/imagenes/semaforo.jpg" alt="imagen del semaforo" class="centered-image">
+          </div>
+          
+
+
+
+      <div class="why">
+         <h1>¿Por qué es importante?</h1>
+         <p>Este sistema fue diseñado para abordar el 65% de los accidentes viales que ocurren en cruces no regulados, según datos del INEGI.
+            Busca mejorar la seguridad vial al priorizar el paso de los peatones de manera automatizada y eficiente.</p>
+      </div>
+
+      <div class="HIW">
+         <h1>¿Cómo funciona?</h1>
+         <p>El sensor PIR detecta el movimiento de peatones en un rango de 5 a 10 metros.
+             Una vez activado, el sistema inicia una cuenta regresiva en el semáforo, dándoles tiempo suficiente para cruzar de manera segura</p>
+
+      </div>
+
+      <div class="impact">
+         <h1>Impacto urbano</h1>
+         <p>Reduce accidentes en cruces concurridos, mejora la movilidad peatonal y crea entornos urbanos más seguros y organizados.</p>
+      </div>
+
+      <div class="proyection">
+            <h1>Proyección a futuro</h1>
+            <p>Se planea implementar este sistema en zonas escolares y áreas de alto tráfico.
+                También se busca incorporar análisis predictivo para optimizar los tiempos de los semáforos basados en patrones de tráfico.
+            </p>
+      </div>
+
+      </section>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="resources/js/main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Smartopia</title>
+
+      <!--=============== ICONOS PARA EL MENU ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="resources/css/styles.css">
+
+   </head>
+
+    <!--BODY-->   
+   <body>
+
+        <!--=============== HEADER ===============-->
+        <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                <i class="ri-home-fill"></i>Smartopia
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="index.html" class="nav__link">Inicio</a></li>
+
+                  
+
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Nosotros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="us.html" class="dropdown__link">
+                              <i class="ri-group-fill"></i> ¿Quiénes Somos?
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="fundadores.html" class="dropdown__link">
+                              <i class="ri-team-fill"></i>Fundadores
+                           </a>
+                        </li>
+                        </ul>
+
+
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Soluciones <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="peatonal.html" class="dropdown__link">
+                            <i class="ri-traffic-light-fill"></i> Sistema Peatonal
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="recoleccion.html" class="dropdown__link">
+                            <i class="ri-delete-bin-fill"></i> Sistema de recolección de basura
+                           </a>
+                        </li>
+
+                        <li>
+                            <a href="drenaje.html" class="dropdown__link">
+                                <i class="ri-rainy-fill"></i> Sistema de drenaje
+                            </a>
+                         </li>
+
+                        
+                         <li>
+                            <a href="ambiente.html" class="dropdown__link">
+                                <i class="ri-cloud-fill"></i> Sistema de control ambiental
+                            </a>
+                         </li>
+
+                         <li>
+                            <a href="iluminacion.html" class="dropdown__link">
+                                <i class="ri-lightbulb-flash-fill"></i> Sistema de iluminación
+                            </a>
+                         </li>
+                        </ul>
+
+                        <!--Estadisticas-->
+                  <li><a href="stats.html" class="nav__link">
+                     Estadisticas<i class="ri-bar-chart-fill"></i>
+                     </a>
+                  </li>
+
+            </div>
+         </nav>
+      </header>
+    
+
+
+      <section class="profile-container">
+         <img   src="resources/imagenes/adriana_perfil.png">   
+         <h2>Análista de requerimientos</h2>
+         <p>Definió requerimientos técnicos, diseñó el sistema de monitoreo ambiental, 
+            optimizó su ubicación, documentó especificaciones clave y validó la integración y consistencia de los datos en el sistema IoT.
+         </p>
+      </section>
+
+
+      <section class="profile-container">
+         <img   src="resources/imagenes/diego_perfil.png">   
+         <h2>Arquitecto de sistemas</h2>
+         <p>Diseñó e implementó el sistema de alumbrado público, utilizando sensores LDR para regular la intensidad luminosa según las condiciones ambientales, optimizando el consumo energético. 
+            Documentó especificaciones técnicas y colaboró en la integración del sistema al IoT, asegurando su funcionalidad y escalabilidad.
+         </p>
+      </section>
+
+
+      <section class="profile-container">
+         <img   src="resources/imagenes/yuli_perfil.png">   
+         <h2>Jefa de proyecto</h2>
+         <p>Coordinó todas las etapas del proyecto, supervisando la integración de los subsistemas en un sistema IoT funcional.
+             Diseñó el sistema de monitoreo de nivel de residuos utilizando sensores ultrasónicos y optimizó la gestión energética mediante soluciones técnicas, como la administración de voltaje externo. 
+            Garantizó la conectividad con la base de datos y el dashboard, asegurando una integración eficiente y resultados alineados con los objetivos del proyecto.
+         </p>
+      </section>
+
+
+      <section class="profile-container">
+         <img   src="resources/imagenes/isaac_perfil.png">   
+         <h2>Desarrollador de Software</h2>
+         <p>Diseñó y programó el código para los microcontroladores así como la conexión de los estos con la API, permitiendo el envío de datos en tiempo real a una base de datos en la nube,
+            y desarrolló consultas SQL para gestionar y analizar la información recolectada. Además, colaboró en la visualización de los datos en un dashboard,
+            asegurando una integración eficiente entre hardware, software y análisis de datos.
+            Su trabajo fue clave para automatizar el sistema y garantizar su funcionalidad en el entorno urbano.
+         </p>
+      </section>
+
+
+
+      <section class="profile-container">
+         <img   src="resources/imagenes/umberto_perfil.png">   
+         <h2>Desarrollador de Software</h2>
+         <p>Implementó y calibró el sistema de drenaje inteligente utilizando el sensor de lluvia YL-83 y un servomotor para controlar las alcantarillas,
+             optimizando su respuesta ante lluvias moderadas e intensas. Diseñó e integró los componentes de hardware del sistema IoT, 
+             asegurando la comunicación eficiente con el software y la base de datos. 
+            Su enfoque en la interconexión de sensores y actuadores fue esencial para garantizar un funcionamiento robusto y escalable del proyecto.
+         </p>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--=============== MAIN JS ===============-->
+      <script src="resources/js/main.js"></script>
+   </body>
+</html>
