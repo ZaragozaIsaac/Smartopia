@@ -148,40 +148,26 @@ a {
   align-items: center; /* Centra verticalmente */
 }
 
-.inner-container {
-  position: absolute; /* Asegura que se mantenga dentro del .img-container */
-  display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  text-align: center; /* Texto centrado */
-  width: 100%; /* Ocupa todo el ancho del contenedor */
-  height: 100%; /* Ocupa toda la altura del contenedor */
-}
 
-.inner-container h1 {
-  color: black;
-  font-size: 3rem; /* Tamaño ajustable del texto */
-  font-weight: bold;
-  margin: 0; /* Elimina márgenes adicionales */
-}
 
 
 .intro-container{
   margin: 50px;
-
 }
 
-.Nosotros-container{
-  max-width: 100%; /* Ocupa todo el ancho */
+intro-container p {
+  text-align: justify;
+  }
+
+
+.Nosotros-container, .mision, .vision{
+  max-width: 60%; /* Ocupa todo el ancho */
   padding: 25px; /* Reduce el padding interno */
   margin: 200px auto 10px; /* Espaciado externo */
 }
 
-.mision,.vision{
-  max-width: 100%; /* Ocupa todo el ancho */
-  padding: 25px; /* Reduce el padding interno */
-  margin: 0px; /* Espaciado externo */
-  margin-top: 10px;
+.mision, .vision{
+  margin-top: 20px;
 }
 
 
@@ -196,19 +182,95 @@ a {
 .mision p,
 .vision p {
   font-size: 0.9rem; /* Ajusta el tamaño del texto */
+  text-align: justify;
 }
 
 
+.profile-container {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center; /* Centra el texto */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  margin: 100px 0px; /* Espaciado superior e inferior */
+  padding: 20px; /* Espaciado interno */
+}
+
+.profile-container img {
+  width: 100%; /* Tamaño de la imagen */
+  max-width: 600px; /* Tamaño máximo en dispositivos grandes */
+  margin-bottom: -30px; /* Espaciado inferior entre la imagen y el texto */
+}
 
 
+.profile-container h2 {
+  font-size: 1.5rem; /* Ajusta el tamaño del subtítulo */
+  font-weight: 400; /* Ajusta el grosor */
+  color: gray; /* Color opcional */
+  margin-bottom: 20px; /* Espaciado inferior */
+
+}
+
+.profile-container p {
+  font-size: 1rem; /* Tamaño del texto */
+  text-align: justify; /* Justifica el texto */
+  line-height: 1.6; /* Ajusta la altura de línea para mejor legibilidad */
+  width: 90%; /* Ancho del párrafo */
+  max-width: 600px; /* Tamaño máximo del párrafo */
+}
+
+.centered-image {
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin: 0 auto; /* Centrado horizontal si está dentro de un bloque */
+  display: block; /* Asegura que se comporte como un elemento de bloque */
+  width: 600px;
+}
+
+.sistema {
+  position: relative; /* Relativo para que el contenido se ubique dentro de la imagen */
+  max-width: 90%; /* Limita el ancho del contenido */
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+  padding: 20px; /* Añade espacio interno */
+  color: black; /* Color blanco para texto sobre la imagen */
+  text-align: justify; /* Justifica el texto */
+  margin-top: 100px;
+  max-width: 60%;
+}
 
 
+.why h1,
+.HIW h1,
+.impact h1,
+.proyection h1{
+  margin-bottom: 20px;
+  margin-top: 20px;
 
+} 
+    
+.why p,
+.HIW p,
+.impact p,
+.proyection p{
+  text-align: justify;
+}
 
+.dashboard {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers the iframe horizontally */
+  align-items: center; /* Centers the iframe vertically */
+  height: 100vh; /* Sets the height of the container to the full viewport height */
+  margin-top: var(--header-height); /* Ensures it doesn’t overlap the header */
+  padding: 20px; /* Optional: Adds some padding around the iframe */
+  background-color: var(--body-color); /* Matches the background color of the page */
+  box-sizing: border-box; /* Ensures padding doesn’t affect centering */
+}
 
-
-
-
+iframe {
+  max-width: 100%; /* Ensures responsiveness */
+  max-height: 100%; /* Keeps the iframe within the available space */
+  border: none; /* Removes any default borders */
+  margin-top: 100px;
+}
 
 
 
@@ -240,8 +302,8 @@ a {
 .img-container {
   position: relative; /* Relativo para contener elementos absolutamente posicionados */
   width: 100%;
-  height: 300px; /* Ajusta la altura según tus necesidades */
-  background-image: url(../imagenes/fondo\ inicio.jpg);
+  height: 245px; /* Ajusta la altura según tus necesidades */
+  background-image: url(../imagenes/Fondo_Smartopia.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,36 +311,21 @@ a {
   display: flex; /* Activa flexbox */
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-}
-
-.inner-container {
-  position: absolute; /* Asegura que se mantenga dentro del .img-container */
-  display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  text-align: center; /* Texto centrado */
-  width: 100%; /* Ocupa todo el ancho del contenedor */
-  height: 100%; /* Ocupa toda la altura del contenedor */
-}
-
-.inner-container h1 {
-  color: black;
-  font-size: 3rem; /* Tamaño ajustable del texto */
-  font-weight: bold;
-  margin: 0; /* Elimina márgenes adicionales */
-}
-
-
-
-/* Contenedor debajo de la imagen */
-.intro-container {
   
-  padding: 20px; /* Añade espacio dentro del contenedor */
-  margin: 0 auto; /* Centra el contenedor en la página */
-  max-width: 80%; /* Ajusta el ancho del contenedor */
-  background-color: #f9f9f9; /* Fondo claro para mejor visualización */
-  margin-top: 20px; /* Añade un espacio debajo de la imagen */
 }
+
+  /* Contenedor debajo de la imagen */
+  .intro-container {
+   padding: 20px; /* Añade espacio dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+   max-width: 80%; /* Ajusta el ancho del contenedor */
+    margin-top: 20px; /* Añade un espacio debajo de la imagen */
+   background-color: white;
+  }
+
+  .intro-container p {
+   text-align: justify;
+   }
 
   .Nosotros-container{
         max-width: 100%; /* Ocupa todo el ancho */
