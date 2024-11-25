@@ -469,7 +469,9 @@ iframe {
       margin-top: 200px;
     }
     
-
+    .nav__link{
+      padding: 2.5rem 2.5rem;
+    }
 
 
 
@@ -491,7 +493,7 @@ iframe {
     color: var(--white-color);
     background-color: var(--black-color);
     font-weight: var(--font-semi-bold);
-    padding: 3.5rem 2.55rem;
+    padding: 1.25rem 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
