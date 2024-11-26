@@ -487,9 +487,11 @@ iframe {
       display: block;
     }
 
-    .nav__link{
+    
+    .dropdown__item{
       padding: 1.25rem 1.5rem;
     }
+
 
   }
   
@@ -498,7 +500,6 @@ iframe {
     background-color: var(--black-color);
     font-weight: var(--font-semi-bold);
     padding: 2.25rem 1.5rem;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -612,13 +613,6 @@ iframe {
     }
 
     
-
-
-
-
-
-
-
 
 
   
