@@ -244,14 +244,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
 .centered-image {
   height: auto; /* Mantiene la proporción de la imagen */
   margin: 0 auto; /* Centrado horizontal si está dentro de un bloque */
@@ -298,12 +290,22 @@ a {
   box-sizing: border-box; /* Ensures padding doesn’t affect centering */
 }
 
+
+.mobile_dashboard{
+  display: none;
+}
+
+
+
+
 iframe {
   max-width: 100%; /* Ensures responsiveness */
   max-height: 100%; /* Keeps the iframe within the available space */
   border: none; /* Removes any default borders */
   margin-top: 100px;
 }
+
+
 
 
 
@@ -469,17 +471,6 @@ iframe {
       margin-top: 200px;
     }
     
-    .nav__link{
-      padding: 2.5rem 2.5rem;
-    }
-
-
-
-
-
-
-
-
     .nav__menu::-webkit-scrollbar {
       width: 0;
     }
@@ -487,13 +478,27 @@ iframe {
       background-color: var(--black-color);
       padding-top: 1rem;
     }
+
+    .dashboard{
+      display: none;
+    }
+
+    .mobile_dashboard{
+      display: block;
+    }
+
+    .nav__link{
+      margin: 20px 20px;
+    }
+
   }
   
   .nav__link {
     color: var(--white-color);
     background-color: var(--black-color);
     font-weight: var(--font-semi-bold);
-    padding: 1.25rem 1.5rem;
+    padding: 2.25rem 1.5rem;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -593,6 +598,11 @@ iframe {
     .nav__link {
       padding-inline: 1rem;
     }
+
+
+
+
+
   }
   
   /* For large devices */
